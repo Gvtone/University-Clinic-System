@@ -1,0 +1,476 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="txtContact.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAAM8AAAAoCAYAAABZwK5lAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAHJSURBVHhe7d3NKwRxGMDx39HRf7DaUsrL2rFF0g5TqPW2
+        e1ByVy4OSi4OcpOLkovcrIubkpIDKVIODkouSpKUl7TkdQ9jnvZXWtpJT277/dRz2JnZ47dfM5fHAPgn
+        0bg35HSkd+rbeu6ijuczTDmPdNDkpQ+DLkZtIr9FYm6lPDQyPpXb3t33r65vfKDcSQd7B0f+5MzcS3Co
+        nAWdVNlkvkk4G1s79i8Afjo+OfUTXuYy4roVNhtj6lpTYxPTs0/2GQAlLCytvDleesGmUzh15GgCEO78
+        4tKPJfuuC+UEapq7X3NPz/Y2gDDyIcGmY4z8APA3xAMoEQ+gRDyAEvEASsQDKBEPoEQ8gBLxAErEAygR
+        D6BEPIAS8QBKxAMoEQ+gRDyAEvEASsQDKBEPoEQ8gBLxAErEAygRD6BEPIAS8QBKxAMoFcVTnejMv398
+        2FsAwhTFI3tHZH0CgHC39w9+bWsqZ9MxpiHZO7+4nM3b+wBKkB1WjpfetOkYI8t64u0DN2yDA0qTV5uW
+        rsHHX9vhgguNCS9zm11b/2TdCPBNopFVo8ne4YdER6bfJlPM7iVdlX098lLEMIznywc1WXIdaXJrbCoA
+        9Iz5Ai89cQME1UApAAAAAElFTkSuQmCC
+</value>
+  </data>
+  <data name="txtAge.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAAM8AAAAoCAYAAABZwK5lAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAHJSURBVHhe7d3NKwRxGMDx39HRf7DaUsrL2rFF0g5TqPW2
+        e1ByVy4OSi4OcpOLkovcrIubkpIDKVIODkouSpKUl7TkdQ9jnvZXWtpJT277/dRz2JnZ47dfM5fHAPgn
+        0bg35HSkd+rbeu6ijuczTDmPdNDkpQ+DLkZtIr9FYm6lPDQyPpXb3t33r65vfKDcSQd7B0f+5MzcS3Co
+        nAWdVNlkvkk4G1s79i8Afjo+OfUTXuYy4roVNhtj6lpTYxPTs0/2GQAlLCytvDleesGmUzh15GgCEO78
+        4tKPJfuuC+UEapq7X3NPz/Y2gDDyIcGmY4z8APA3xAMoEQ+gRDyAEvEASsQDKBEPoEQ8gBLxAErEAygR
+        D6BEPIAS8QBKxAMoEQ+gRDyAEvEASsQDKBEPoEQ8gBLxAErEAygRD6BEPIAS8QBKxAMoFcVTnejMv398
+        2FsAwhTFI3tHZH0CgHC39w9+bWsqZ9MxpiHZO7+4nM3b+wBKkB1WjpfetOkYI8t64u0DN2yDA0qTV5uW
+        rsHHX9vhgguNCS9zm11b/2TdCPBNopFVo8ne4YdER6bfJlPM7iVdlX098lLEMIznywc1WXIdaXJrbCoA
+        9Iz5Ai89cQME1UApAAAAAElFTkSuQmCC
+</value>
+  </data>
+  <data name="txtCourse.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAASgAAAAoCAYAAABNcGetAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAH/SURBVHhe7dmxSxtRHMDxNzr6H5wECoGqqZeAEkrOHLSC
+        WnsZCqW74NKhIC4dipu4CNKldKtduhVECBkigkXo4CCIS6GEEAJRKYloazO83iM/kOCc3K/w/cBvuHvv
+        1i+PdwYA/hupqfClX4yqE48XzlN+aBmGYQY5rjXZMDqK27MiGbrPywSjbtPym7ftyv6hrTeaFgAGzbXm
+        4Nt3u7a+eR0fjs7iFo1Jlu64OO2Wq/IJAAzf8cmpzYWlmhcEI5ImY8bz869X3210ZA8AJGb7w6fffhht
+        S556pyd3xAKApP34WbOZwrNGr06x9PTcTbtzJcsAkCx3eS55MsY9AIAWBAqAWgQKgFoECoBaBAqAWgQK
+        gFoECoBaBAqAWgQKgFoECoBaBAqAWgQKgFoECoBaBAqAWgQKgFoECoBaBAqAWgQKgFoECoBaBAqAWgQK
+        gFoECoBaBAqAWgQKgFoECoBaBAqAWn2BepB70v1zeytLAJCsvkD5xejs+ORUlgAgOa2LS/swP9+WPBkz
+        WVjcev9xpyvrAJCY3XLV+mG0J3kyxguCkanZ5816oylbAGD43FXTzNMXv7xMMCZ56olfPMqFpdbOl69/
+        250r2Q4Ag+fCVNk/tIXFV5e5YmlJstQvjtRoNow+p6fnbtwlFcMwzDDG/ajzi1HVywZpyREAaGbMPzN/
+        a4okTHG6AAAAAElFTkSuQmCC
+</value>
+  </data>
+  <data name="txtPosition.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAASgAAAAoCAYAAABNcGetAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAH/SURBVHhe7dmxSxtRHMDxNzr6H5wECoGqqZeAEkrOHLSC
+        WnsZCqW74NKhIC4dipu4CNKldKtduhVECBkigkXo4CCIS6GEEAJRKYloazO83iM/kOCc3K/w/cBvuHvv
+        1i+PdwYA/hupqfClX4yqE48XzlN+aBmGYQY5rjXZMDqK27MiGbrPywSjbtPym7ftyv6hrTeaFgAGzbXm
+        4Nt3u7a+eR0fjs7iFo1Jlu64OO2Wq/IJAAzf8cmpzYWlmhcEI5ImY8bz869X3210ZA8AJGb7w6fffhht
+        S556pyd3xAKApP34WbOZwrNGr06x9PTcTbtzJcsAkCx3eS55MsY9AIAWBAqAWgQKgFoECoBaBAqAWgQK
+        gFoECoBaBAqAWgQKgFoECoBaBAqAWgQKgFoECoBaBAqAWgQKgFoECoBaBAqAWgQKgFoECoBaBAqAWgQK
+        gFoECoBaBAqAWgQKgFoECoBaBAqAWn2BepB70v1zeytLAJCsvkD5xejs+ORUlgAgOa2LS/swP9+WPBkz
+        WVjcev9xpyvrAJCY3XLV+mG0J3kyxguCkanZ5816oylbAGD43FXTzNMXv7xMMCZ56olfPMqFpdbOl69/
+        250r2Q4Ag+fCVNk/tIXFV5e5YmlJstQvjtRoNow+p6fnbtwlFcMwzDDG/ajzi1HVywZpyREAaGbMPzN/
+        a4okTHG6AAAAAElFTkSuQmCC
+</value>
+  </data>
+  <data name="dtpBirthday.Icon" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAGBSURBVFhH7ZZNTsMwEIWNuAGNkNiyYMmCBWvEmsNwg3IC
+        RJtbcCAkUvUsIc+al07GdurECRISnzRS5vmNZ1q7P85y+/DcIiSdTGn9/wC/P8DH9fFeF8WecyNVjx7I
+        o9CE2F99P8aec2OsXtqFaBMChXOaM1L10i7EGtcKaRcSM68R0i4kZl4jpF3IWUMhf28A5qU6Sek91sC8
+        VCcpvccamJfq2dhCvVmJns3swgR1dbzbbQ5veigENKyJ7QQNks6mde3FrmpeddNYwAOvlIUDaHOODrCh
+        Xa+r5uW9+rpB4Nmu90NQ8EmHNuXoQL/yenN4EjkAa/ShxosUfNLBPFfHuVLTza2P6CH8nbBG5rm6vnAi
+        eWIa4dq+arajxhxYj3MWyTO2r74TvfHTtZeyPgnW47KJ5KEu6QB4+3U+TA3Z6+wANrA2GED/KZ0SvksH
+        89QR2MDa4AhKSV3CMej3l7CU1McwRfAxXIKiL6IlKPoqXgpsqN+JVMCzeHMNzjX/59i5Hxo09Iu3Lvms
+        AAAAAElFTkSuQmCC
+</value>
+  </data>
+  <data name="txtAddress.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAASgAAABQCAYAAACqAegBAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAKGSURBVHhe7dk7axRRHIfhKS39BisBIeAlugkoQbJmQQWv
+        m0IQe8HGQhAbC7ETG0FsxE5t7AQRQoqIoAgWFoLYCBJCCERFEvGaYtwhByRYJ/sTngf+xcw5074czlQA
+        /42hvd0z7cne7K4Dxz4Otbu1McZs5DStGe32Xvbbc75k6F+tkc7WZtO5i1eWZ54+r+cXFmuAjda05tmL
+        V/Xlaze+9Q9H7/ot2lay9FcTp8fTs+UTgM33+s3beqw7NdfqdLaUNFXVzvGjFy5dvb5S9gAMzK079360
+        u71bJU9rp6fmiAUwaO8/zNUjEycW1urUN7zvyPflla9lGWCwmsvzkqeqah4AUggUEEuggFgCBcQSKCCW
+        QAGxBAqIJVBALIECYgkUEEuggFgCBcQSKCCWQAGxBAqIJVBALIECYgkUEEuggFgCBcQSKCCWQAGxBAqI
+        JVBALIECYgkUEEuggFgCBcQSKCCWQAGxBAqIJVBALIECYgkUEEuggFgCBcQSKCCWQAGxBAqIJVBALIEC
+        YgkUEEuggFgCBcQSKCCWQAGxBAqIJVBALIECYgkUEEuggFgCBcQSKCCWQAGxBAqIJVBALIECYgkUEEug
+        gFgCBcQSKCCWQAGxBAqIJVBALIECYgkUEGtdoLaPHVr9+etXWQIYrHWBak/23r1+87YsAQzO0qfP9Y7x
+        o8slT1W1e+L4zdt376+WdYCBeTw9W7e7vSclT1XV6nS27D14anF+YbFsAdh8zVXT/sOnv7RGOttKntb0
+        X+wZ604t3X/46PfyyteyHWDjNWGaefq8njh+9vPY5NTJkqX1+pHaOtrtPRjed+R7c0lljDGbMc2PuvZk
+        b7Y12hkuOQJIVlV/ANVNvkQYaQh3AAAAAElFTkSuQmCC
+</value>
+  </data>
+  <data name="txtName.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAASgAAAAoCAYAAABNcGetAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAH/SURBVHhe7dmxSxtRHMDxNzr6H5wECoGqqZeAEkrOHLSC
+        WnsZCqW74NKhIC4dipu4CNKldKtduhVECBkigkXo4CCIS6GEEAJRKYloazO83iM/kOCc3K/w/cBvuHvv
+        1i+PdwYA/hupqfClX4yqE48XzlN+aBmGYQY5rjXZMDqK27MiGbrPywSjbtPym7ftyv6hrTeaFgAGzbXm
+        4Nt3u7a+eR0fjs7iFo1Jlu64OO2Wq/IJAAzf8cmpzYWlmhcEI5ImY8bz869X3210ZA8AJGb7w6fffhht
+        S556pyd3xAKApP34WbOZwrNGr06x9PTcTbtzJcsAkCx3eS55MsY9AIAWBAqAWgQKgFoECoBaBAqAWgQK
+        gFoECoBaBAqAWgQKgFoECoBaBAqAWgQKgFoECoBaBAqAWgQKgFoECoBaBAqAWgQKgFoECoBaBAqAWgQK
+        gFoECoBaBAqAWgQKgFoECoBaBAqAWn2BepB70v1zeytLAJCsvkD5xejs+ORUlgAgOa2LS/swP9+WPBkz
+        WVjcev9xpyvrAJCY3XLV+mG0J3kyxguCkanZ5816oylbAGD43FXTzNMXv7xMMCZ56olfPMqFpdbOl69/
+        250r2Q4Ag+fCVNk/tIXFV5e5YmlJstQvjtRoNow+p6fnbtwlFcMwzDDG/ajzi1HVywZpyREAaGbMPzN/
+        a4okTHG6AAAAAElFTkSuQmCC
+</value>
+  </data>
+  <data name="txtBP.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAALMAAAAsCAYAAAAuJIllAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAHRSURBVHhe7d09S0JhFMDxZ2zsGxhCIPRiqVBIaF6ooFcd
+        gmgPWhqCaGmItmgJpCXaqqUtiCAaiqAIGhqCaAlCQgRLQqMXa7jdQw+E9AXuPfx/cAa91+3Pw9XBYwC1
+        wt3OVCyTPenoG3kKxxyXYfw00mXcyV56nc7aZP8LRdPNctPM/FL1+PTcfSyWXMBvpMuziyt3cWXtzTt0
+        77xuW2zCfyTkg6MT+xHA/65vbt2EkyuE0ukmm7Ex7cnhuYXl1Zq9BwiM/Ob2R8zJ5m3Kv6eyHN1A0Nw/
+        FNxoaqz4W7In0jP0Xq292stAsMgXQ5uyMfICCCpihhrEDDWIGWoQM9QgZqhBzFCDmKEGMUMNYoYaxAw1
+        iBlqEDPUIGaoQcxQg5ihBjFDDWKGGsQMNYgZahAz1CBmqEHMUIOYoQYxQw1ihhrEDDWIGWoQM9QgZqjR
+        EHNrYuD7s163l4BgaYhZdkPIX+oDQVN+rrhtyeGqTdmYztTo+sbWzre9DgSG7OGJOdlDm7IxsuCku3+i
+        xIYpBIk8GvcOTr782zjlvdGVcHLlnb39L1ZCwM8kYlnvlxqdriQyuXGbcCO7C3BXdpzIQzXD+HHkBwtZ
+        vBqKpyM2XUATY34AeWZZmCkvKjcAAAAASUVORK5CYII=
+</value>
+  </data>
+  <data name="txtHopitalizationHistory.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAATkAAAAsCAYAAAAejc9tAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAIKSURBVHhe7dm/S1VhGMDxMzr6H1wRAqEf5vWCIeHtHijB
+        rK5DEO1BS0MQLQ3RFi2BtERbtrQFEoiDEhhBg4MgLkGIiGBJXCXLHE734Ash/QOdp88HnuGc9z3rl5f3
+        ZAD/lf6h/Ea91V44ff7yl/56XhhjzL8+Za+G8/aHbr9up5T9rTbY7C033br7oDO/uFRsbG4VAFVQ9urd
+        +4/F/UdPvncPaWvdnvWltP1RBm52biF9AlBNyyurRSOfWq81mz0pb1l2anTizr2Hj3fTHoBKm37+8kc9
+        b0+nxB2d4sqjHkAEnz6vF4NjVzaPCtc1MDK+39ndS8sA1Vf+kEiJy7LyASASkQNCEzkgNJEDQhM5IDSR
+        A0ITOSA0kQNCEzkgNJEDQhM5IDSRA0ITOSA0kQNCEzkgNJEDQhM5IDSRA0ITOSA0kQNCEzkgNJEDQhM5
+        IDSRA0ITOSA0kQNCEzkgNJEDQhM5IDSRA0I7FrkTjYuHPw8O0hJA9R2LXL3VXlteWU1LANW2/XWnODk6
+        0UmJy7IzY5NPn72YOUzrAJU2O7dQ1PP225S4LKs1mz1DF65tbWxupS0A1VRevZ27dP1bbbDZlxJ3pPvi
+        bCOf2p55/eZXZ3cvbQeohjJu84tLxdjkzZ1Ga+pqSttx3dD1DuftVwMj4/vlpZ0xxlRlyh+o9VZ7oTbc
+        HEhJA4guy34D/zlyz7Mx6wkAAAAASUVORK5CYII=
+</value>
+  </data>
+  <data name="txtOthersMedical.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAAQwAAAAsCAYAAACQV4YRAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAICSURBVHhe7dm/S5RxHMDxZ3T0PzgRAqEf1nlgSHjdQQlm
+        dQ5BtActDUG0NERbtATSEm3Z0hZIIA4ngRE0OAjiEoSICJbEKVnm8HQPflGuCD613usFn+Ge7/fG582X
+        75MB/Lf+M/Xr5VqjefLcpc/95XpujOmuKd79oXrjfbsFt1IW/lQarPYWm27eud+am1/I19Y3cqD7FO/+
+        23cf8nsPH39rHx5W2m3oS5k4UsRiZraZ/gKQ54tLy3mlPrlaqlZ7Uiqy7MTI+O27Dx5tpz0Ah6aevfhe
+        rjemUi4OThfFEQTgdx8/reaDo5fXD2rRNjA8ttva3knLAJ2Ky9CUiywrfgD8jWAAYYIBhAkGECYYQJhg
+        AGGCAYQJBhAmGECYYABhggGECQYQJhhAmGAAYYIBhAkGECYYQJhgAGGCAYQJBhAmGECYYABhggGECQYQ
+        JhhAmGAAYYIBhAkGECYYQJhgAGEdwThWubD/Y28vLQF06ghGudZYWVxaTksARza/bOXHR8ZbKRdZdmp0
+        4snT59P7aR3g0MxsMy/XG29SLrKsVK32nDl/dWNtfSNtAcjz4qri7MVrX0uD1b6UiwPtB6cr9cnN6Vev
+        f7a2d9J2oBsVoZibX8hHJ25sVWqTV1ImOrWj0TtUb7wcGB7bLS45jDHdOcWHkHKt0SwNVQdSHgD+RZb9
+        AgpQ3tr7VurEAAAAAElFTkSuQmCC
+</value>
+  </data>
+  <data name="txtOthersDental.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAAOgAAAAsCAYAAABv0PTaAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAHsSURBVHhe7d3NKwRhHMDx5+joPxgpteVlmd0iacdOobzO
+        HpTclYuDkouD3OSi5CI3XNyU1OawUqQcHJRclLRtW4u05P3wmKd9Spsz81PfT/0OO8+zx29PM5dHAfhH
+        6tv8MTcd5Jq7Bm7rXV8zDPO7Y1pL+MFJ2N6kzfAnJ+7Vmk0T03Pl/YMjnS8UNYDfZ1o7PD7VswtLz+Hh
+        eBm2WGez/Gbi3M3m7F8AROHs/EIn/cyN43k1Nk2lmjr7p2bmFx/tHgARWlnbeHX9YMXmWTk9zRELIHpX
+        1zc6nhoqVOoMxdr7XsqPT3YZQNTMxyObp1LmBwA5CBQQjEABwQgUEIxAAcEIFBCMQAHBCBQQjEABwQgU
+        EIxAAcEIFBCMQAHBCBQQjEABwQgUEIxAAcEIFBCMQAHBCBQQjEABwQgUEIxAAcEIFBCMQAHBCBQQjEAB
+        wQgUEIxAAcEIFBCsKtCGZM/n2/u7XQIQtapAzb345uptANEr3d3rxs7+ss1TqZbU4PLq+uanXQcQod1s
+        Trt+sGfzVMrxvJq27pFivlC0WwBEwbxqdvSOPjhxr87mWRE+aE36mdLm9s4H1+EDf8uEuX9wpFOD4/fJ
+        dGbYZlktjLQ24Qdbsfa+F/OSyjDM34z5UOumg5yT8GI2RwCyKfUFREECKLSdnI8AAAAASUVORK5CYII=
+</value>
+  </data>
+  <data name="label28.Text" xml:space="preserve">
+    <value>Legend:
+C-Caries/Carious Tooth     X-Indicated for Extraction     F-Fracture 
+Dc-Dowel Crown                  RD-Restrained Deciduous      P-Pontic
+Si-Silicate/Composite       Am-Amalgam Restoration    GC-Gold Crown
+Restoration                          SP-Supernumerary tooth	       M-Missing tooth
+UnT-Unerupted tooth         Ab-Abutment tooth                IRCT-Indicated for
+PJ-Plastic Jacket               Tmp-Temporary Filling          Root Canal Treatment
+R-Restorable                       RF-Root Fragment                   I-Inlay
+IJC-Indicated for Jacket
+Crown
+</value>
+  </data>
+  <data name="bunifuLabel43.BaseStylesheet" xml:space="preserve">
+    <value>#bunifu-label { padding: 0px; margin: auto; padding-top: 1px;font-family: 'Poppins Medium'; font-size: 12pt; width: 100%; height: 100%; font-style: normal; font-weight: bold; text-decoration: none; color: rgb(0, 0, 0); text-align: center; }</value>
+  </data>
+  <data name="bunifuLabel44.BaseStylesheet" xml:space="preserve">
+    <value>#bunifu-label { padding: 0px; margin: auto; padding-top: 1px;font-family: 'Poppins Medium'; font-size: 12pt; width: 100%; height: 100%; font-style: normal; font-weight: bold; text-decoration: none; color: rgb(0, 0, 0); text-align: center; }</value>
+  </data>
+  <data name="bunifuLabel45.BaseStylesheet" xml:space="preserve">
+    <value>#bunifu-label { padding: 0px; margin: auto; padding-top: 1px;font-family: 'Poppins Medium'; font-size: 12pt; width: 100%; height: 100%; font-style: normal; font-weight: bold; text-decoration: none; color: rgb(0, 0, 0); text-align: center; }</value>
+  </data>
+  <data name="bunifuLabel46.BaseStylesheet" xml:space="preserve">
+    <value>#bunifu-label { padding: 0px; margin: auto; padding-top: 1px;font-family: 'Poppins Medium'; font-size: 12pt; width: 100%; height: 100%; font-style: normal; font-weight: bold; text-decoration: none; color: rgb(0, 0, 0); text-align: center; }</value>
+  </data>
+  <data name="bunifuLabel47.BaseStylesheet" xml:space="preserve">
+    <value>#bunifu-label { padding: 0px; margin: auto; padding-top: 1px;font-family: 'Poppins Medium'; font-size: 12pt; width: 100%; height: 100%; font-style: normal; font-weight: bold; text-decoration: none; color: rgb(0, 0, 0); text-align: center; }</value>
+  </data>
+  <data name="bunifuLabel48.BaseStylesheet" xml:space="preserve">
+    <value>#bunifu-label { padding: 0px; margin: auto; padding-top: 1px;font-family: 'Poppins Medium'; font-size: 12pt; width: 100%; height: 100%; font-style: normal; font-weight: bold; text-decoration: none; color: rgb(0, 0, 0); text-align: center; }</value>
+  </data>
+  <data name="bunifuLabel49.BaseStylesheet" xml:space="preserve">
+    <value>#bunifu-label { padding: 0px; margin: auto; padding-top: 1px;font-family: 'Poppins Medium'; font-size: 12pt; width: 100%; height: 100%; font-style: normal; font-weight: bold; text-decoration: none; color: rgb(0, 0, 0); text-align: center; }</value>
+  </data>
+  <data name="bunifuLabel50.BaseStylesheet" xml:space="preserve">
+    <value>#bunifu-label { padding: 0px; margin: auto; padding-top: 1px;font-family: 'Poppins Medium'; font-size: 12pt; width: 100%; height: 100%; font-style: normal; font-weight: bold; text-decoration: none; color: rgb(0, 0, 0); text-align: center; }</value>
+  </data>
+  <data name="bunifuLabel51.BaseStylesheet" xml:space="preserve">
+    <value>#bunifu-label { padding: 0px; margin: auto; padding-top: 1px;font-family: 'Poppins Medium'; font-size: 12pt; width: 100%; height: 100%; font-style: normal; font-weight: bold; text-decoration: none; color: rgb(0, 0, 0); text-align: center; }</value>
+  </data>
+  <data name="bunifuLabel52.BaseStylesheet" xml:space="preserve">
+    <value>#bunifu-label { padding: 0px; margin: auto; padding-top: 1px;font-family: 'Poppins Medium'; font-size: 12pt; width: 100%; height: 100%; font-style: normal; font-weight: bold; text-decoration: none; color: rgb(0, 0, 0); text-align: center; }</value>
+  </data>
+  <data name="bunifuLabel27.BaseStylesheet" xml:space="preserve">
+    <value>#bunifu-label { padding: 0px; margin: auto; padding-top: 1px;font-family: 'Poppins Medium'; font-size: 12pt; width: 100%; height: 100%; font-style: normal; font-weight: bold; text-decoration: none; color: rgb(0, 0, 0); text-align: center; }</value>
+  </data>
+  <data name="bunifuLabel28.BaseStylesheet" xml:space="preserve">
+    <value>#bunifu-label { padding: 0px; margin: auto; padding-top: 1px;font-family: 'Poppins Medium'; font-size: 12pt; width: 100%; height: 100%; font-style: normal; font-weight: bold; text-decoration: none; color: rgb(0, 0, 0); text-align: center; }</value>
+  </data>
+  <data name="bunifuLabel29.BaseStylesheet" xml:space="preserve">
+    <value>#bunifu-label { padding: 0px; margin: auto; padding-top: 1px;font-family: 'Poppins Medium'; font-size: 12pt; width: 100%; height: 100%; font-style: normal; font-weight: bold; text-decoration: none; color: rgb(0, 0, 0); text-align: center; }</value>
+  </data>
+  <data name="bunifuLabel30.BaseStylesheet" xml:space="preserve">
+    <value>#bunifu-label { padding: 0px; margin: auto; padding-top: 1px;font-family: 'Poppins Medium'; font-size: 12pt; width: 100%; height: 100%; font-style: normal; font-weight: bold; text-decoration: none; color: rgb(0, 0, 0); text-align: center; }</value>
+  </data>
+  <data name="bunifuLabel31.BaseStylesheet" xml:space="preserve">
+    <value>#bunifu-label { padding: 0px; margin: auto; padding-top: 1px;font-family: 'Poppins Medium'; font-size: 12pt; width: 100%; height: 100%; font-style: normal; font-weight: bold; text-decoration: none; color: rgb(0, 0, 0); text-align: center; }</value>
+  </data>
+  <data name="bunifuLabel32.BaseStylesheet" xml:space="preserve">
+    <value>#bunifu-label { padding: 0px; margin: auto; padding-top: 1px;font-family: 'Poppins Medium'; font-size: 12pt; width: 100%; height: 100%; font-style: normal; font-weight: bold; text-decoration: none; color: rgb(0, 0, 0); text-align: center; }</value>
+  </data>
+  <data name="bunifuLabel33.BaseStylesheet" xml:space="preserve">
+    <value>#bunifu-label { padding: 0px; margin: auto; padding-top: 1px;font-family: 'Poppins Medium'; font-size: 12pt; width: 100%; height: 100%; font-style: normal; font-weight: bold; text-decoration: none; color: rgb(0, 0, 0); text-align: center; }</value>
+  </data>
+  <data name="bunifuLabel34.BaseStylesheet" xml:space="preserve">
+    <value>#bunifu-label { padding: 0px; margin: auto; padding-top: 1px;font-family: 'Poppins Medium'; font-size: 12pt; width: 100%; height: 100%; font-style: normal; font-weight: bold; text-decoration: none; color: rgb(0, 0, 0); text-align: center; }</value>
+  </data>
+  <data name="bunifuLabel35.BaseStylesheet" xml:space="preserve">
+    <value>#bunifu-label { padding: 0px; margin: auto; padding-top: 1px;font-family: 'Poppins Medium'; font-size: 12pt; width: 100%; height: 100%; font-style: normal; font-weight: bold; text-decoration: none; color: rgb(0, 0, 0); text-align: center; }</value>
+  </data>
+  <data name="bunifuLabel36.BaseStylesheet" xml:space="preserve">
+    <value>#bunifu-label { padding: 0px; margin: auto; padding-top: 1px;font-family: 'Poppins Medium'; font-size: 12pt; width: 100%; height: 100%; font-style: normal; font-weight: bold; text-decoration: none; color: rgb(0, 0, 0); text-align: center; }</value>
+  </data>
+  <data name="bunifuLabel37.BaseStylesheet" xml:space="preserve">
+    <value>#bunifu-label { padding: 0px; margin: auto; padding-top: 1px;font-family: 'Poppins Medium'; font-size: 12pt; width: 100%; height: 100%; font-style: normal; font-weight: bold; text-decoration: none; color: rgb(0, 0, 0); text-align: center; }</value>
+  </data>
+  <data name="bunifuLabel38.BaseStylesheet" xml:space="preserve">
+    <value>#bunifu-label { padding: 0px; margin: auto; padding-top: 1px;font-family: 'Poppins Medium'; font-size: 12pt; width: 100%; height: 100%; font-style: normal; font-weight: bold; text-decoration: none; color: rgb(0, 0, 0); text-align: center; }</value>
+  </data>
+  <data name="bunifuLabel39.BaseStylesheet" xml:space="preserve">
+    <value>#bunifu-label { padding: 0px; margin: auto; padding-top: 1px;font-family: 'Poppins Medium'; font-size: 12pt; width: 100%; height: 100%; font-style: normal; font-weight: bold; text-decoration: none; color: rgb(0, 0, 0); text-align: center; }</value>
+  </data>
+  <data name="bunifuLabel40.BaseStylesheet" xml:space="preserve">
+    <value>#bunifu-label { padding: 0px; margin: auto; padding-top: 1px;font-family: 'Poppins Medium'; font-size: 12pt; width: 100%; height: 100%; font-style: normal; font-weight: bold; text-decoration: none; color: rgb(0, 0, 0); text-align: center; }</value>
+  </data>
+  <data name="bunifuLabel41.BaseStylesheet" xml:space="preserve">
+    <value>#bunifu-label { padding: 0px; margin: auto; padding-top: 1px;font-family: 'Poppins Medium'; font-size: 12pt; width: 100%; height: 100%; font-style: normal; font-weight: bold; text-decoration: none; color: rgb(0, 0, 0); text-align: center; }</value>
+  </data>
+  <data name="bunifuLabel42.BaseStylesheet" xml:space="preserve">
+    <value>#bunifu-label { padding: 0px; margin: auto; padding-top: 1px;font-family: 'Poppins Medium'; font-size: 12pt; width: 100%; height: 100%; font-style: normal; font-weight: bold; text-decoration: none; color: rgb(0, 0, 0); text-align: center; }</value>
+  </data>
+  <data name="bunifuLabel19.BaseStylesheet" xml:space="preserve">
+    <value>#bunifu-label { padding: 0px; margin: auto; padding-top: 1px;font-family: 'Poppins Medium'; font-size: 12pt; width: 100%; height: 100%; font-style: normal; font-weight: bold; text-decoration: none; color: rgb(0, 0, 0); text-align: center; }</value>
+  </data>
+  <data name="bunifuLabel20.BaseStylesheet" xml:space="preserve">
+    <value>#bunifu-label { padding: 0px; margin: auto; padding-top: 1px;font-family: 'Poppins Medium'; font-size: 12pt; width: 100%; height: 100%; font-style: normal; font-weight: bold; text-decoration: none; color: rgb(0, 0, 0); text-align: center; }</value>
+  </data>
+  <data name="bunifuLabel21.BaseStylesheet" xml:space="preserve">
+    <value>#bunifu-label { padding: 0px; margin: auto; padding-top: 1px;font-family: 'Poppins Medium'; font-size: 12pt; width: 100%; height: 100%; font-style: normal; font-weight: bold; text-decoration: none; color: rgb(0, 0, 0); text-align: center; }</value>
+  </data>
+  <data name="bunifuLabel22.BaseStylesheet" xml:space="preserve">
+    <value>#bunifu-label { padding: 0px; margin: auto; padding-top: 1px;font-family: 'Poppins Medium'; font-size: 12pt; width: 100%; height: 100%; font-style: normal; font-weight: bold; text-decoration: none; color: rgb(0, 0, 0); text-align: center; }</value>
+  </data>
+  <data name="bunifuLabel23.BaseStylesheet" xml:space="preserve">
+    <value>#bunifu-label { padding: 0px; margin: auto; padding-top: 1px;font-family: 'Poppins Medium'; font-size: 12pt; width: 100%; height: 100%; font-style: normal; font-weight: bold; text-decoration: none; color: rgb(0, 0, 0); text-align: center; }</value>
+  </data>
+  <data name="bunifuLabel24.BaseStylesheet" xml:space="preserve">
+    <value>#bunifu-label { padding: 0px; margin: auto; padding-top: 1px;font-family: 'Poppins Medium'; font-size: 12pt; width: 100%; height: 100%; font-style: normal; font-weight: bold; text-decoration: none; color: rgb(0, 0, 0); text-align: center; }</value>
+  </data>
+  <data name="bunifuLabel25.BaseStylesheet" xml:space="preserve">
+    <value>#bunifu-label { padding: 0px; margin: auto; padding-top: 1px;font-family: 'Poppins Medium'; font-size: 12pt; width: 100%; height: 100%; font-style: normal; font-weight: bold; text-decoration: none; color: rgb(0, 0, 0); text-align: center; }</value>
+  </data>
+  <data name="bunifuLabel26.BaseStylesheet" xml:space="preserve">
+    <value>#bunifu-label { padding: 0px; margin: auto; padding-top: 1px;font-family: 'Poppins Medium'; font-size: 12pt; width: 100%; height: 100%; font-style: normal; font-weight: bold; text-decoration: none; color: rgb(0, 0, 0); text-align: center; }</value>
+  </data>
+  <data name="bunifuLabel11.BaseStylesheet" xml:space="preserve">
+    <value>#bunifu-label { padding: 0px; margin: auto; padding-top: 1px;font-family: 'Poppins Medium'; font-size: 12pt; width: 100%; height: 100%; font-style: normal; font-weight: bold; text-decoration: none; color: rgb(0, 0, 0); text-align: center; }</value>
+  </data>
+  <data name="bunifuLabel12.BaseStylesheet" xml:space="preserve">
+    <value>#bunifu-label { padding: 0px; margin: auto; padding-top: 1px;font-family: 'Poppins Medium'; font-size: 12pt; width: 100%; height: 100%; font-style: normal; font-weight: bold; text-decoration: none; color: rgb(0, 0, 0); text-align: center; }</value>
+  </data>
+  <data name="bunifuLabel13.BaseStylesheet" xml:space="preserve">
+    <value>#bunifu-label { padding: 0px; margin: auto; padding-top: 1px;font-family: 'Poppins Medium'; font-size: 12pt; width: 100%; height: 100%; font-style: normal; font-weight: bold; text-decoration: none; color: rgb(0, 0, 0); text-align: center; }</value>
+  </data>
+  <data name="bunifuLabel14.BaseStylesheet" xml:space="preserve">
+    <value>#bunifu-label { padding: 0px; margin: auto; padding-top: 1px;font-family: 'Poppins Medium'; font-size: 12pt; width: 100%; height: 100%; font-style: normal; font-weight: bold; text-decoration: none; color: rgb(0, 0, 0); text-align: center; }</value>
+  </data>
+  <data name="bunifuLabel15.BaseStylesheet" xml:space="preserve">
+    <value>#bunifu-label { padding: 0px; margin: auto; padding-top: 1px;font-family: 'Poppins Medium'; font-size: 12pt; width: 100%; height: 100%; font-style: normal; font-weight: bold; text-decoration: none; color: rgb(0, 0, 0); text-align: center; }</value>
+  </data>
+  <data name="bunifuLabel16.BaseStylesheet" xml:space="preserve">
+    <value>#bunifu-label { padding: 0px; margin: auto; padding-top: 1px;font-family: 'Poppins Medium'; font-size: 12pt; width: 100%; height: 100%; font-style: normal; font-weight: bold; text-decoration: none; color: rgb(0, 0, 0); text-align: center; }</value>
+  </data>
+  <data name="bunifuLabel17.BaseStylesheet" xml:space="preserve">
+    <value>#bunifu-label { padding: 0px; margin: auto; padding-top: 1px;font-family: 'Poppins Medium'; font-size: 12pt; width: 100%; height: 100%; font-style: normal; font-weight: bold; text-decoration: none; color: rgb(0, 0, 0); text-align: center; }</value>
+  </data>
+  <data name="bunifuLabel18.BaseStylesheet" xml:space="preserve">
+    <value>#bunifu-label { padding: 0px; margin: auto; padding-top: 1px;font-family: 'Poppins Medium'; font-size: 12pt; width: 100%; height: 100%; font-style: normal; font-weight: bold; text-decoration: none; color: rgb(0, 0, 0); text-align: center; }</value>
+  </data>
+  <data name="bunifuLabel6.BaseStylesheet" xml:space="preserve">
+    <value>#bunifu-label { padding: 0px; margin: auto; padding-top: 1px;font-family: 'Poppins Medium'; font-size: 12pt; width: 100%; height: 100%; font-style: normal; font-weight: bold; text-decoration: none; color: rgb(0, 0, 0); text-align: center; }</value>
+  </data>
+  <data name="bunifuLabel1.BaseStylesheet" xml:space="preserve">
+    <value>#bunifu-label { padding: 0px; margin: auto; padding-top: 1px;font-family: 'Poppins Medium'; font-size: 12pt; width: 100%; height: 100%; font-style: normal; font-weight: bold; text-decoration: none; color: rgb(0, 0, 0); text-align: center; }</value>
+  </data>
+  <data name="bunifuLabel10.BaseStylesheet" xml:space="preserve">
+    <value>#bunifu-label { padding: 0px; margin: auto; padding-top: 1px;font-family: 'Poppins Medium'; font-size: 12pt; width: 100%; height: 100%; font-style: normal; font-weight: bold; text-decoration: none; color: rgb(0, 0, 0); text-align: center; }</value>
+  </data>
+  <data name="bunifuLabel9.BaseStylesheet" xml:space="preserve">
+    <value>#bunifu-label { padding: 0px; margin: auto; padding-top: 1px;font-family: 'Poppins Medium'; font-size: 12pt; width: 100%; height: 100%; font-style: normal; font-weight: bold; text-decoration: none; color: rgb(0, 0, 0); text-align: center; }</value>
+  </data>
+  <data name="bunifuLabel8.BaseStylesheet" xml:space="preserve">
+    <value>#bunifu-label { padding: 0px; margin: auto; padding-top: 1px;font-family: 'Poppins Medium'; font-size: 12pt; width: 100%; height: 100%; font-style: normal; font-weight: bold; text-decoration: none; color: rgb(0, 0, 0); text-align: center; }</value>
+  </data>
+  <data name="bunifuLabel7.BaseStylesheet" xml:space="preserve">
+    <value>#bunifu-label { padding: 0px; margin: auto; padding-top: 1px;font-family: 'Poppins Medium'; font-size: 12pt; width: 100%; height: 100%; font-style: normal; font-weight: bold; text-decoration: none; color: rgb(0, 0, 0); text-align: center; }</value>
+  </data>
+  <data name="bunifuLabel5.BaseStylesheet" xml:space="preserve">
+    <value>#bunifu-label { padding: 0px; margin: auto; padding-top: 1px;font-family: 'Poppins Medium'; font-size: 12pt; width: 100%; height: 100%; font-style: normal; font-weight: bold; text-decoration: none; color: rgb(0, 0, 0); text-align: center; }</value>
+  </data>
+  <data name="bunifuLabel4.BaseStylesheet" xml:space="preserve">
+    <value>#bunifu-label { padding: 0px; margin: auto; padding-top: 1px;font-family: 'Poppins Medium'; font-size: 12pt; width: 100%; height: 100%; font-style: normal; font-weight: bold; text-decoration: none; color: rgb(0, 0, 0); text-align: center; }</value>
+  </data>
+  <data name="bunifuLabel3.BaseStylesheet" xml:space="preserve">
+    <value>#bunifu-label { padding: 0px; margin: auto; padding-top: 1px;font-family: 'Poppins Medium'; font-size: 12pt; width: 100%; height: 100%; font-style: normal; font-weight: bold; text-decoration: none; color: rgb(0, 0, 0); text-align: center; }</value>
+  </data>
+  <data name="bunifuLabel2.BaseStylesheet" xml:space="preserve">
+    <value>#bunifu-label { padding: 0px; margin: auto; padding-top: 1px;font-family: 'Poppins Medium'; font-size: 12pt; width: 100%; height: 100%; font-style: normal; font-weight: bold; text-decoration: none; color: rgb(0, 0, 0); text-align: center; }</value>
+  </data>
+  <data name="btnAdd.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAAJYAAAAnCAYAAADtl7EyAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAFeSURBVHhe7dw9SgQxHIbxlJYewdLSk1jbLUhGbTyD1W6i
+        zYJn8Aq223oEawsRFJEV/NhkljGJ60cR1Nn17Z7AD5ZNpnv4M9PEfF+Nb3esbyfWtXfpdwf8prTi2gs7
+        CgeLjL7WYNytl00fp7WHgZ+kYZQ9pcgu9123scgqTaoUVe0BoC973F4Njro1Y4fhMNX2WDsE9GXd7KXx
+        89MyrfIoqx0C+ov5ves6vbDH5/oBYHn5S7C6AayCsCBBWJAgLEgQFiQICxKEBQnCggRhQYKwIEFYkCAs
+        SBAWJAgLEoQFCcKCBGFBgrAgQViQICxIEBYkCAsShAUJwoIEYUGCsCBBWJAw1sdY2wBWYfJlWbUNYBnl
+        5iIXp6Zx87H1gamF/+PCucm3r6XKbqoHgJ5SSw+f10Xak9lW+uPWuhBqh4E/ut8dxe0S1ccqF9z6+RkX
+        saGv/AGYBtNkb/i6+V6TMW9q0DOUPS9PhQAAAABJRU5ErkJggg==
+</value>
+  </data>
+  <data name="dtpDate.Icon" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAGBSURBVFhH7ZZNTsMwEIWNuAGNkNiyYMmCBWvEmsNwg3IC
+        RJtbcCAkUvUsIc+al07GdurECRISnzRS5vmNZ1q7P85y+/DcIiSdTGn9/wC/P8DH9fFeF8WecyNVjx7I
+        o9CE2F99P8aec2OsXtqFaBMChXOaM1L10i7EGtcKaRcSM68R0i4kZl4jpF3IWUMhf28A5qU6Sek91sC8
+        VCcpvccamJfq2dhCvVmJns3swgR1dbzbbQ5veigENKyJ7QQNks6mde3FrmpeddNYwAOvlIUDaHOODrCh
+        Xa+r5uW9+rpB4Nmu90NQ8EmHNuXoQL/yenN4EjkAa/ShxosUfNLBPFfHuVLTza2P6CH8nbBG5rm6vnAi
+        eWIa4dq+arajxhxYj3MWyTO2r74TvfHTtZeyPgnW47KJ5KEu6QB4+3U+TA3Z6+wANrA2GED/KZ0SvksH
+        89QR2MDa4AhKSV3CMej3l7CU1McwRfAxXIKiL6IlKPoqXgpsqN+JVMCzeHMNzjX/59i5Hxo09Iu3Lvms
+        AAAAAElFTkSuQmCC
+</value>
+  </data>
+</root>

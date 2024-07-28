@@ -1,0 +1,615 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{F7F52447-D872-4A2C-967E-BCD7985B8952}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>Clinic</RootNamespace>
+    <AssemblyName>Clinic</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <PublishUrl>C:\Users\GERALD KENT\Desktop\app\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <AutorunEnabled>true</AutorunEnabled>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.0</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <PublishWizardCompleted>true</PublishWizardCompleted>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignManifests>true</SignManifests>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestCertificateThumbprint>E3B75C345101501DB44ED3214D9776D788253C2E</ManifestCertificateThumbprint>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestKeyFile>Clinic_TemporaryKey.pfx</ManifestKeyFile>
+  </PropertyGroup>
+  <PropertyGroup>
+    <GenerateManifests>true</GenerateManifests>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="BouncyCastle.Crypto, Version=1.9.0.0, Culture=neutral, PublicKeyToken=0e99375e54769942, processorArchitecture=MSIL">
+      <HintPath>..\packages\Portable.BouncyCastle.1.9.0\lib\net40\BouncyCastle.Crypto.dll</HintPath>
+    </Reference>
+    <Reference Include="Bunifu.Licensing, Version=3.2.0.0, Culture=neutral, PublicKeyToken=f89b4760ba7dcb6b" />
+    <Reference Include="Bunifu.UI.WinForms.1.5.3">
+      <HintPath>..\..\..\..\Downloads\BUNIFU TOOLS\Bunifu.UI.WinForms.1.5.3.dll</HintPath>
+    </Reference>
+    <Reference Include="Bunifu.UI.WinForms.BunifuButton">
+      <HintPath>..\..\..\..\Downloads\BUNIFU TOOLS\Bunifu.UI.WinForms.BunifuButton.dll</HintPath>
+    </Reference>
+    <Reference Include="Bunifu.UI.WinForms.BunifuDatePicker">
+      <HintPath>..\..\..\..\Downloads\BUNIFU TOOLS\Bunifu.UI.WinForms.BunifuDatePicker.dll</HintPath>
+    </Reference>
+    <Reference Include="Bunifu.UI.WinForms.BunifuDropdown">
+      <HintPath>..\..\..\..\Downloads\BUNIFU TOOLS\Bunifu.UI.WinForms.BunifuDropdown.dll</HintPath>
+    </Reference>
+    <Reference Include="Bunifu.UI.WinForms.BunifuGroupBox">
+      <HintPath>..\..\..\..\Downloads\BUNIFU TOOLS\Bunifu.UI.WinForms.BunifuGroupBox.dll</HintPath>
+    </Reference>
+    <Reference Include="Bunifu.UI.WinForms.BunifuImageButton">
+      <HintPath>..\..\..\..\Downloads\BUNIFU TOOLS\Bunifu.UI.WinForms.BunifuImageButton.dll</HintPath>
+    </Reference>
+    <Reference Include="Bunifu.UI.WinForms.BunifuLabel">
+      <HintPath>..\..\..\..\Downloads\BUNIFU TOOLS\Bunifu.UI.WinForms.BunifuLabel.dll</HintPath>
+    </Reference>
+    <Reference Include="Bunifu.UI.WinForms.BunifuPanel">
+      <HintPath>..\..\..\..\Downloads\BUNIFU TOOLS\Bunifu.UI.WinForms.BunifuPanel.dll</HintPath>
+    </Reference>
+    <Reference Include="Bunifu.UI.WinForms.BunifuRadioButton">
+      <HintPath>..\..\..\..\Downloads\BUNIFU TOOLS\Bunifu.UI.WinForms.BunifuRadioButton.dll</HintPath>
+    </Reference>
+    <Reference Include="Bunifu.UI.WinForms.BunifuSeparator">
+      <HintPath>..\..\..\..\Downloads\BUNIFU TOOLS\Bunifu.UI.WinForms.BunifuSeparator.dll</HintPath>
+    </Reference>
+    <Reference Include="Bunifu.UI.WinForms.BunifuShadowPanel">
+      <HintPath>..\..\..\..\Downloads\BUNIFU TOOLS\Bunifu.UI.WinForms.BunifuShadowPanel.dll</HintPath>
+    </Reference>
+    <Reference Include="Bunifu.UI.WinForms.BunifuShapes">
+      <HintPath>..\..\..\..\Downloads\BUNIFU TOOLS\Bunifu.UI.WinForms.BunifuShapes.dll</HintPath>
+    </Reference>
+    <Reference Include="Bunifu.UI.WinForms.BunifuSlider">
+      <HintPath>..\..\..\..\Downloads\BUNIFU TOOLS\Bunifu.UI.WinForms.BunifuSlider.dll</HintPath>
+    </Reference>
+    <Reference Include="Bunifu.UI.WinForms.BunifuTextbox">
+      <HintPath>..\..\..\..\Downloads\BUNIFU TOOLS\Bunifu.UI.WinForms.BunifuTextbox.dll</HintPath>
+    </Reference>
+    <Reference Include="ComponentFactory.Krypton.Toolkit">
+      <HintPath>..\..\..\..\Downloads\Krypton-master\Bin\ComponentFactory.Krypton.Toolkit.dll</HintPath>
+    </Reference>
+    <Reference Include="Google.Protobuf, Version=3.19.4.0, Culture=neutral, PublicKeyToken=a7d26565bac4d604, processorArchitecture=MSIL">
+      <HintPath>..\packages\Google.Protobuf.3.19.4\lib\net45\Google.Protobuf.dll</HintPath>
+    </Reference>
+    <Reference Include="K4os.Compression.LZ4, Version=1.2.6.0, Culture=neutral, PublicKeyToken=2186fa9121ef231d, processorArchitecture=MSIL">
+      <HintPath>..\packages\K4os.Compression.LZ4.1.2.6\lib\net46\K4os.Compression.LZ4.dll</HintPath>
+    </Reference>
+    <Reference Include="K4os.Compression.LZ4.Streams, Version=1.2.6.0, Culture=neutral, PublicKeyToken=2186fa9121ef231d, processorArchitecture=MSIL">
+      <HintPath>..\packages\K4os.Compression.LZ4.Streams.1.2.6\lib\net46\K4os.Compression.LZ4.Streams.dll</HintPath>
+    </Reference>
+    <Reference Include="K4os.Hash.xxHash, Version=1.0.6.0, Culture=neutral, PublicKeyToken=32cd54395057cec3, processorArchitecture=MSIL">
+      <HintPath>..\packages\K4os.Hash.xxHash.1.0.6\lib\net46\K4os.Hash.xxHash.dll</HintPath>
+    </Reference>
+    <Reference Include="MySql.Data, Version=8.0.31.0, Culture=neutral, PublicKeyToken=c5687fc88969c44d, processorArchitecture=MSIL">
+      <HintPath>..\packages\MySql.Data.8.0.31\lib\net452\MySql.Data.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Buffers, Version=4.0.3.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Buffers.4.5.1\lib\net461\System.Buffers.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Configuration.Install" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Design" />
+    <Reference Include="System.Management" />
+    <Reference Include="System.Memory, Version=4.0.1.1, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Memory.4.5.4\lib\net461\System.Memory.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Numerics" />
+    <Reference Include="System.Numerics.Vectors, Version=4.1.4.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Numerics.Vectors.4.5.0\lib\net46\System.Numerics.Vectors.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Runtime.CompilerServices.Unsafe, Version=5.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Runtime.CompilerServices.Unsafe.5.0.0\lib\net45\System.Runtime.CompilerServices.Unsafe.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Transactions" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="ZstdNet, Version=1.4.5.0, Culture=neutral, PublicKeyToken=c5687fc88969c44d, processorArchitecture=MSIL">
+      <HintPath>..\packages\MySql.Data.8.0.31\lib\net452\ZstdNet.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="CustomFlowLayoutPanel.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="CustomFlowLayoutPanel.Designer.cs">
+      <DependentUpon>CustomFlowLayoutPanel.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DragControl.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmMain.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmMain.Designer.cs">
+      <DependentUpon>frmMain.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Home.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Home.Designer.cs">
+      <DependentUpon>Home.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DatagridMain.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="DatagridMain.Designer.cs">
+      <DependentUpon>DatagridMain.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Inventory.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Inventory.Designer.cs">
+      <DependentUpon>Inventory.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Medicine.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Medicine.Designer.cs">
+      <DependentUpon>Medicine.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Patient.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Patient.Designer.cs">
+      <DependentUpon>Patient.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PatientPreview.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="PatientPreview.Designer.cs">
+      <DependentUpon>PatientPreview.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Print.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Print.Designer.cs">
+      <DependentUpon>Print.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="SubPatient.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="SubPatient.Designer.cs">
+      <DependentUpon>SubPatient.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Teeth.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Teeth.Designer.cs">
+      <DependentUpon>Teeth.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Tools.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Tools.Designer.cs">
+      <DependentUpon>Tools.cs</DependentUpon>
+    </Compile>
+    <Compile Include="TopBar.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="TopBar.Designer.cs">
+      <DependentUpon>TopBar.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmMain.resx">
+      <DependentUpon>frmMain.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Home.resx">
+      <DependentUpon>Home.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DatagridMain.resx">
+      <DependentUpon>DatagridMain.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Inventory.resx">
+      <DependentUpon>Inventory.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Medicine.resx">
+      <DependentUpon>Medicine.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Patient.resx">
+      <DependentUpon>Patient.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PatientPreview.resx">
+      <DependentUpon>PatientPreview.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Print.resx">
+      <DependentUpon>Print.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\licenses.licx" />
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <SubType>Designer</SubType>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SubPatient.resx">
+      <DependentUpon>SubPatient.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Teeth.resx">
+      <DependentUpon>Teeth.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Tools.resx">
+      <DependentUpon>Tools.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TopBar.resx">
+      <DependentUpon>TopBar.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="Clinic_TemporaryKey.pfx" />
+    <None Include="packages.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\5540021.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\mainBg.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\clinicName.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\home.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\user.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\boxes.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\close.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\stop.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\minus.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pills.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\dentist-tools.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\whiteBox.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\whiteBoxTime.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\whiteBoxNum.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\whiteBox1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\whiteBoxRecent.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\whiteBoxTable.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Teeth.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\teeth%281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\teeth%282%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\teeth%283%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\teeth%284%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\teeth%285%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\teethSelected%281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\teethSelected%282%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\teethSelected%283%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\teethSelected%284%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\teethSelected%285%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\LSPU transparent.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Unchecked.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Checked.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Tooth1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Tooth2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Tooth3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Tooth4.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Tooth5.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Tooth12.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Tooth13.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Tooth14.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Tooth15.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Tooth23.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Tooth24.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Tooth25.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Tooth34.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Tooth45.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Tooth123.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Tooth124.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Tooth125.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Tooth134.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Tooth145.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Tooth234.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Tooth235.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Tooth245.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Tooth345.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Tooth1234.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Tooth1235.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Tooth1245.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Tooth1345.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Tooth2345.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Tooth12345.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Tooth135.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Tooth35.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Dental Record.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\toothPrint.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\toothPrint1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\toothPrint2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\toothPrint3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\toothPrint4.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\toothPrint5.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\toothPrint12.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\toothPrint13.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\toothPrint14.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\toothPrint15.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\toothPrint23.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\toothPrint24.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\toothPrint25.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\toothPrint34.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\toothPrint35.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\toothPrint45.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\toothPrint123.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\toothPrint124.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\toothPrint125.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\toothPrint134.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\toothPrint135.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\toothPrint145.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\toothPrint234.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\toothPrint235.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\toothPrint245.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\toothPrint345.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\toothPrint1234.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\toothPrint1235.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\toothPrint1245.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\toothPrint1345.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\toothPrint2345.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\toothPrint12345.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.7.2">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4.7.2 %28x86 and x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
